@@ -181,3 +181,28 @@ grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
     color: #e02c6d;
 }
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+footer h3{        
+    padding-top: 50px;       
+    margin: 0px;       
+    font-size: 24px;
+}
+footer p{      
+    margin: 0px;      
+    margin-bottom: 17px;      
+    font-size: 14px;       
+    opacity: 30%;
+    margin-top: 3px;
+}
+footer .foot-icon{       
+    display: flex;        
+    justify-content: space-evenly;       
+    width: 150px;       
+    margin: auto;       
+    padding-bottom: 50px;   
+    opacity: 35%;
+}
