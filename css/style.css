@@ -103,3 +103,26 @@ width: 440px;
 
 background-image:url(/image/Circle\ design.svg);
 }
+.logo-section {
+    margin: 100px 165px;
+    /* display: flex; */
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+}
+.logo-section hr{
+    
+margin: 0px;
+    
+/* color: #48b4bf; */
+    
+opacity: 20%;
+}
+.logos .logo{
+
+padding: 10px;
+}
