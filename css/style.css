@@ -4,12 +4,14 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
-    /* color: #3A3A3A; */
+    color: #3A3A3A;
 }
 header{
     display: flex;
     justify-content: space-between;
-
+    /* width: 90%; */
+    margin: 87px 120px;
+    /* margin-right: 10%; */
 }
 header h1{
     color: #3A3A3A;
@@ -17,8 +19,87 @@ header h1{
     font-weight: 700;
     line-height: 36px;
 }
-.navbar ul li{
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-right: 1%; */
+    list-style: none;
+}
+.navbar ul li a{   
     text-decoration: none;
     color: #3A3A3A;
+    margin-right: 30px;
+}
+.navbar ul a{
+    margin-right: 5px;
+    color: #3A3A3A;
+}
+.hero-section{
 
+display: flex;
+
+/* width: 90%; */
+
+justify-content: space-between;
+
+margin: 0px 120px;
+}
+.hero-section .left-half{
+
+width: 582px;
+
+height: 270px;
+
+/* margin-left: 120px; */
+
+margin-top: 285px;
+}
+.hero-section .left-half h1{
+
+font-size: 52px;
+
+line-height: 70px;
+
+font-weight: 700;
+
+margin-bottom: 16px;
+}
+.hero-section .left-half p{
+
+font-size: 16px;
+
+font-weight: 600;
+
+line-height: 24px;
+}
+.hero-section .left-half button{
+
+padding: 10px 24px 10px 24px;
+
+background-color: #E02C6D;
+
+border-radius: 41px;
+
+color: white;
+}
+button .fa-arrow-right{
+    padding-left: 5px;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.hero-section .right-half{
+    
+margin-top: 211px;
+    
+/* margin-left: 737px; */
+}
+.hero-section .right-half img{
+
+height: 414px;
+
+width: 440px;
+
+background-image:url(/image/Circle\ design.svg);
 }
