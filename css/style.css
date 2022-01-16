@@ -181,6 +181,91 @@ grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
     color: #e02c6d;
 }
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 430px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.form .registration{
+    background-color: rgba(155, 243, 243, 0.425);
+    border-radius: 10px;
+}
+.registration h3{text-align: center;font-size: 24px;}
+.registration form{
+
+display: flex;
+
+grid-template-columns: repeat(2, 1fr);
+
+flex-direction: column;
+}
+form .user-details{
+
+display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+margin-bottom: 30px;
+}
+.user-details .input-box{
+
+display: flex;
+
+flex-direction: column;
+
+text-align: center;
+}
+.input-box span{
+
+font-size: 14px;
+}
+.input-box input{
+    
+margin: 0px 10px;
+    
+padding: 10px;
+}
+.form .gender-details{
+
+/* display: flex; */
+
+width: 100%;
+}
+.gender-details .gender-title{
+
+font-size: 14px;
+}
+.gender-details .category{
+
+display: flex;
+
+margin-left: 10px;
+
+width: 85%;
+
+justify-content: space-between;
+}
+.form .button{
+
+margin: 0px 10px;
+
+display: flex;
+
+justify-content: center;
+}
+.button button{
+    
+padding: 10px 24px 10px 24px;
+    
+background-color: #E02C6D;
+    
+border-radius: 41px;
+    
+color: white;
+}
 footer{
     background-color: #0A0826;
     color: white;
